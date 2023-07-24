@@ -1,0 +1,22 @@
+.imagesss {
+    display: flex;
+    position: relative;
+
+    /* height: 550px;
+    width:1200px */
+}
+
+.imagesss img {
+    height: 378px;
+    width: 350px;
+    margin-right: 15px;
+}
+
+.imagesssdes {
+    position: absolute;
+    left: 5px;
+    bottom: 5px;
+    font-size: 15px;
+    z-index: 2;
+
+}

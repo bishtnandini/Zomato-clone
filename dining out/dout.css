@@ -1,0 +1,83 @@
+.collection{
+  margin-left: 120px;
+}
+
+.scrolls {
+  width: 1000px;
+  height: 250px;
+  display: flex;
+  align-items: center;
+  /* margin-left: 125px; */
+  justify-content: space-between;
+  /* background-color: aqua; */
+  /* border: 2px solid red; */
+}
+
+.covers {
+  position: relative;
+  width: 90%;
+  height: 50%;
+ 
+}
+
+
+.scrolls-images {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  overflow: auto;
+  position: relative;
+  /* background-color: yellow; */
+  margin-top: -66px;
+  scroll-behavior: smooth;
+}
+
+.childs {
+  min-width: 200px;
+  height: 250px;
+  /*450*/
+  /* background-color: red; */
+  margin-top: 1px;
+  margin-bottom: 1px;
+  margin-right:12px;
+  cursor: pointer;
+  /* border: 1px solid rgba(207, 201, 201, .3); */
+  overflow: hidden;
+}
+
+.scrolls-images::-webkit-scrollbar {
+  -webkit-appearance: none;
+}
+
+
+
+.childs-img {
+  width: 200px;
+  height: 260px;
+ 
+  /* padding-right: 150px; */
+}
+
+.icons {
+  color: rgb(67, 247, 76);
+  background-color: black;
+
+  outline: none;
+  border: none;
+  padding: opx 10px;
+  cursor: pointer;
+height: 25px;
+width: 25px;
+}
+button i{
+  font-size: 25px;
+  color: white;
+}
+
+.icons:hover {
+  color: yellow;
+}
+
+
